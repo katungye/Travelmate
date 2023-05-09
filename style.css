@@ -31,6 +31,12 @@ nav a {
    text-decoration: none;
 }
 
+#Home {
+   margin-top: 10%;
+   display: flex;
+   flex-direction: row;
+}
+
 #login-logout{
    float: right;
    text-align: center;
@@ -39,6 +45,7 @@ nav a {
    border-radius: 25px;
    background: #73AD21;
    padding: 20px;
+   width: 30%;
    
 }
 
@@ -52,6 +59,10 @@ main {
 
 section {
    margin-bottom: 40px;
+}
+
+#section-content {
+   width: 70%;
 }
 
 h2 {
